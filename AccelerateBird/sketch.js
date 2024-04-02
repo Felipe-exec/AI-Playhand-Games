@@ -170,7 +170,7 @@ function gotResult(error, results) {
 
 function controlBird() {
   if (label === "Acelerar") {
-    accelerate(-0.04);
+    accelerate(-0.02);
   } else if (label === "Parar") {
     accelerate(0.04);
   } else {
