@@ -15,7 +15,7 @@ var myObstacles = [];
 var myScore;
 
 var birdImage = new Image();
-birdImage.src = "../images/bird.png";
+birdImage.src = "./images/bird.png";
 
 function startGame() {
   myGamePiece = new component(100, 80, birdImage, 10, 120);
