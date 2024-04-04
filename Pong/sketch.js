@@ -8,7 +8,7 @@ let yBall = 50;
 let xSpeed = (4, 9);
 let ySpeed = (-9, -4);
 let score = 0;
-let life = 1;
+let life = 3;
 let moveX = 200;
 let paddleWidth = 220;
 
@@ -17,7 +17,7 @@ let flippedVideo;
 let label = "Esperando...";
 
 let classifier;
-let imageModelURL = "../Models/Pong/";
+let imageModelURL = "../Models/Pong_Model/";
 
 function preload() {
     classifier = ml5.imageClassifier(imageModelURL + "model.json");
