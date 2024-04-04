@@ -154,9 +154,9 @@ let h;
 function setup() {
   startGame();
 
-  createCanvas(320, 240);
+  createCanvas(220, 140);
   video = createCapture(VIDEO);
-  video.size(320, 240);
+  video.size(220, 140);
   video.hide();
 
   flippedVideo = ml5.flipImage(video);
