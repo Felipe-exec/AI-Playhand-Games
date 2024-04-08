@@ -6,7 +6,7 @@
 // *** HERE IS CODE YOU CAN EDIT ******//
 
 // REPLACE THIS WITH YOUR OWN TEACHABLE MACHINE MODEL!!
-let imageModelURL = "../Models/modelo_versao_5/";
+let imageModelURL = "../Models/Snake_Model/";
 
 // IF YOU WANT TO TRY KEYBOARD CHANGE TO "TRUE";
 let keyboard_control = false;
@@ -21,7 +21,7 @@ let confidenceThreshold = 0.7;
 
 let video;
 let flipVideo;
-let label = "waiting...";
+let label = "Esperando...";
 
 let classifier;
 
@@ -37,7 +37,7 @@ let w;
 let h;
 
 function setup() {
-  createCanvas(720, 480)
+  createCanvas(720, 480);
 
   // Create the video
   video = createCapture(VIDEO);
@@ -131,7 +131,7 @@ function draw() {
   snake.show();
 
   if (snake.endGame()) {
-    print("END GAME");
+    print("FIM DO JOGO");
     background(255, 0, 0);
     noLoop();
   }

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas {
+    border: 4px double #114232;
+    background-color: #f1f1f1;
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #140b0a;
+}
+
+.p5Canvas {
+    margin: 20px;
+}

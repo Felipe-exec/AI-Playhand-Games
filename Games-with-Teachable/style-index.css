@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative; /* Adicionando posição relativa para que a sobreposição possa ser posicionada corretamente */
-    background-image: url("./images/hBt_L6.gif");
+    background-image: url("./images/background.gif");
     background-size: cover;
 }
 
@@ -38,6 +38,7 @@ body::after {
 .card-text {
     font-family: 'Honk', sans-serif;
     font-size: 30px;
+    text-align: center;
 }
 
 .card:hover {
