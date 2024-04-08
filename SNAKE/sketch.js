@@ -6,7 +6,7 @@
 // *** HERE IS CODE YOU CAN EDIT ******//
 
 // REPLACE THIS WITH YOUR OWN TEACHABLE MACHINE MODEL!!
-let imageModelURL = "../Models/Snake_Model/";
+let imageModelURL = "/Models/Snake_Model/";
 
 // IF YOU WANT TO TRY KEYBOARD CHANGE TO "TRUE";
 let keyboard_control = false;

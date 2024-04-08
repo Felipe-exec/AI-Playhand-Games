@@ -1,4 +1,4 @@
-let imageModelURL = "../Models/AccelerateBird_Model/";
+let imageModelURL = "/Models/AccelerateBird_Model/";
 
 let video;
 let flipVideo;
