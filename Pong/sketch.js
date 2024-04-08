@@ -17,7 +17,7 @@ let flippedVideo;
 let label = "Esperando...";
 
 let classifier;
-let imageModelURL = "/Models/Pong_Model/";
+let imageModelURL = "/models/pong/";
 
 function preload() {
     classifier = ml5.imageClassifier(imageModelURL + "model.json");
